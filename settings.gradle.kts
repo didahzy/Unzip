@@ -24,4 +24,7 @@ dependencyResolutionManagement {
 
 rootProject.name = "Unzip"
 include(":app")
+include(":archive-core")
+include(":archive-zip")
+include(":archive-rar")
  

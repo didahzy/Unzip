@@ -11,7 +11,7 @@ android {
 
     defaultConfig {
         applicationId = "ziyao.huang.unzip"
-        minSdk = 23
+        minSdk = 26
         targetSdk = 37
         versionCode = 1
         versionName = "1.0"
@@ -37,6 +37,9 @@ android {
 }
 
 dependencies {
+    implementation(project(":archive-core"))
+    implementation(project(":archive-zip"))
+    implementation(project(":archive-rar"))
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.activity.compose)
     implementation(libs.androidx.compose.material3)
