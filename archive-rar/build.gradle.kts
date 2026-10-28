@@ -20,4 +20,7 @@ android {
 
 dependencies {
     implementation(project(":archive-core"))
+    implementation(libs.kotlinx.coroutines.core)
+
+    testImplementation(libs.junit)
 }
