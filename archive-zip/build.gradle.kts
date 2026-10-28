@@ -9,4 +9,7 @@ kotlin {
 dependencies {
     implementation(project(":archive-core"))
     implementation(libs.archive.zip4j)
+    implementation(libs.kotlinx.coroutines.core)
+
+    testImplementation(libs.junit)
 }
