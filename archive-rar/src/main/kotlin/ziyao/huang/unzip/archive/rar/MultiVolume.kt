@@ -21,7 +21,7 @@ object MultiVolume {
     fun siblings(
         firstVolume: String,
         listDirectory: (String) -> List<String> = { path ->
-            File(path).parentFile?.listFiles()?.map { it.absolutePath }.orEmpty()
+            File(path).listFiles()?.map { it.absolutePath }.orEmpty()
         },
     ): List<String> {
         // base 从文件名取（不是完整路径），与目录列表逐名匹配
