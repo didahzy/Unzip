@@ -1,0 +1,4 @@
+unrarsrc-7.3.2.tar.gz (UnRAR source, downloaded from https://www.rarlab.com/rar_add.htm)
+version.hpp: RARVER_MAJOR 7, RARVER_MINOR 30, RARVER_BETA 2 (7.30 beta 2 - the only and latest source published on rar_add.htm)
+sha256: f61a1160d6e2ebbda2ad353c8e82f62ab4312f97fde23c6c2c982d25e0014f99
+License: unrar license.txt (freeware source license, kept in this directory)
